@@ -672,6 +672,7 @@ hexylena:
       - gallantries
       - erasmusmc
       - avans-atgm
+      - by-covid
     contact_for_training: false
     location:
       country: NL
@@ -937,6 +938,8 @@ kysrpex:
     name: José Manuel Domínguez
     joined: 2023-10
     elixir_node: de
+    affiliations:
+      - uni-freiburg
 
 Lain-inrae:
     name: Lain Pavot
@@ -1027,6 +1030,12 @@ manabuishii:
     name: Manabu ISHII
     joined: 2017-09
 
+mjostaszewski:
+    name: Marek Ostaszewski
+    joined: 2023-12
+    elixir_node: lu
+    orcid: 0000-0003-1473-370X
+
 mariipia10:
     name: Maria Pia
     joined: 2021-10
@@ -1079,11 +1088,25 @@ matthias313:
     orcid: 0000-0001-7955-2518
     joined: 2019-03
 
+MattiHoch:
+    name: Matti Hoch
+    joined: 2023-12
+    elixir_node: de
+
 maximskorik:
     name: Maxim Skoryk
     email: maximskoryk@gmail.com
     orcid: 0000-0003-2056-8018
     joined: 2023-03
+
+mbaardwijk:
+    name: Myrthe van Baardwijk
+    joined: 2023-12
+    orcid: 0000-0001-8747-1494
+    elixir_node: nl
+    affiliations:
+      - erasmusmc
+      - by-covid
 
 mblue9:
     name: Maria Doyle
@@ -1145,6 +1168,8 @@ mira-miracoli:
     email: kuntzm@informatik.uni-freiburg.de
     joined: 2022-07
     elixir_node: de
+    affiliations:
+      - uni-freiburg
 
 miRlyKayleigh:
     name: Kayleigh Smith
@@ -1315,6 +1340,14 @@ pajanne:
     name: Anne Pajon
     joined: 2017-09
 
+PapXis:
+    name: Iacopo Cristoferi
+    joined: 2023-12
+    orcid: 0000-0002-4282-9103
+    affiliations:
+      - erasmusmc
+      - by-covid
+
 RareSeas:
     name: Adelaide Rhodes
     joined: 2021-05
@@ -1457,6 +1490,12 @@ sandygudie:
 sanneabeln:
     name: Sanne Abeln
     joined: 2018-09
+
+sanjaysrikakulam:
+    name: Sanjay Kumar Srikakulam
+    joined: 2023-12
+    affiliations:
+      - uni-freiburg
 
 saramorsy:
     name: Sara Morsy
