@@ -55,7 +55,9 @@ layout: base
 
     {% unless topic.tag_based %}
     <h2 id="topic-faq">Frequently Asked Questions</h2>
-    Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.
+    <p>Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.</p>
+
+    <p>Follow topic updates <a href="feed.xml">{% icon rss-feed %}</a></p>
     {% endunless %}
 
     {% if topic.editorial_board %}

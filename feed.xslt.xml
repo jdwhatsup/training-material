@@ -70,7 +70,14 @@
         <xsl:value-of select="atom:summary"  disable-output-escaping="yes" />
       </p>
       <small>
-        Published: <xsl:value-of select="atom:updated" />
+        Published: <xsl:value-of select="atom:updated" /> <br/>
+        Tags:
+        <xsl:for-each select="atom:category">
+          <xsl:value-of select="@term" />
+          <xsl:if test="position() != last()">
+            <xsl:text>, </xsl:text>
+          </xsl:if>
+        </xsl:for-each>
       </small>
     </div>
   </xsl:template>
